@@ -1,0 +1,86 @@
+/* Page body */
+
+.Header {
+    display         : flex;
+    justify-content : center;
+    padding         : 1rem;
+    background-color: #fff;
+    box-shadow      : 0 1px 4px rgb(0 0 0 / 8%);
+}
+
+.HeaderBody {
+    width  : 85%;
+    display: flex;
+}
+
+/* Search input body */
+
+.searchBody {
+    width      : 52%;
+    margin-left: 1.9rem;
+}
+
+/* Logotip */
+
+.Logotip {
+    width: 250px;
+}
+
+/* Title text */
+
+.Title_Text {
+    color     : grey;
+    margin-top: -1.5rem;
+    font-size : 14px;
+    text-align: center;
+}
+
+/* all */
+.LogoBody,
+.searchBody {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+}
+
+
+@media(min-width:0) and (max-width:600px) {
+
+    /* Page Header sm */
+
+    .HeaderBody {
+        flex-direction: column;
+    }
+
+    /* Search input body */
+
+    .searchBody {
+        margin: 0.75px 0 0rem 0;
+        width : 100%;
+    }
+
+    /* Logotip */
+
+    .LogoBody {
+        align-items: center;
+    }
+
+    .Logotip {
+        width: 75%;
+    }
+
+    /* Title text */
+    .Title_Text {
+        color     : grey;
+        margin-top: -0.5rem !important;
+        font-size : 14px;
+        text-align: center;
+        margin-top: -1rem;
+    }
+}
+
+@media (min-width:601px) and (max-width:1084px){
+    .Logotip {
+        width: 240px;
+    }
+}

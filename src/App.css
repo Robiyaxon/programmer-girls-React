@@ -1,0 +1,183 @@
+.App {
+    height          : 100%;
+    background-color: rgb(235, 234, 229);
+}
+
+/* Strelka */
+#back-to-top-anchor{
+    min-height: 0.1px !important;
+    max-height: 0.1px;
+}
+
+.card{
+    position: inherit !important;
+}
+
+/* MainCategory */
+.navbar-nav {
+    height: 458px !important;
+}   
+
+/* indicator */
+._Indicator-module__Indicators__2vhHh ._Indicator-module__Active__2qRu_{
+    background-color: #ff0000 !important;
+}
+
+._Indicator-module__Indicators__2vhHh button{
+    background-color: #ffc7c7 !important;
+}
+
+/* Header Page react-search-field */
+
+.test-class {
+    border: none !important;
+    width : 100%;
+}
+
+.react-search-field-input {
+    border       : 2px solid red !important;
+    height       : 37px !important;
+    border-radius: 7px 0 0 7px;
+    width        : 600px !important;
+    font-size    : 19px !important;
+}
+
+.react-search-field-button {
+    background-color: red !important;
+    border          : 2px solid red !important;
+    display         : flex;
+    border-radius   : 0 7px 7px 0;
+    height          : 37px !important;
+    align-items     : center;
+}
+
+.react-search-field-button svg {
+    fill: #fff !important;
+}
+
+/* Home page Carousel */
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: grey !important;
+    height: 50px !important;
+    width: 30px !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.carousel-control-prev{
+    justify-content: flex-start !important;
+}
+
+.carousel-control-next{
+    justify-content: flex-end !important;
+}
+
+.card-header{
+    cursor: pointer;
+    background-color: transparent !important;
+}
+
+.card-header:hover{
+    color: red !important;
+}
+
+/* Modal close button */
+.close{
+    background-color: transparent ;
+    border: none ;
+}
+
+.close span{
+    font-size: 25px;
+}
+
+.MuiDialogContent-root{
+    padding-top: 0 !important;
+}
+
+.MuiDialogTitle-root{
+    padding-bottom: 0 !important;
+}
+
+.navbar {
+    background-color: #f9f9f9 !important;
+}
+
+.navbar-nav{
+    width: 100%;
+}
+
+.MuiCardMedia-img{
+    object-fit: contain !important;
+}
+
+/* Img Favourite */
+.MuiCheckbox-colorSecondary.Mui-checked{
+    color: red !important;
+}
+
+.MuiCardActions-root{
+    justify-content: space-around !important;
+}
+
+/* modal */
+.MuiDialog-paperWidthSm{
+    height: 200px;
+}
+
+.MuiDialog-paperScrollPaper{
+max-height: 1000px;
+}
+
+@media(min-width:0) and (max-width:575.9px) {
+    /* react-search-field sm*/
+
+    .react-search-field-input {
+        height: 30px !important;
+    }
+
+    .react-search-field-input {
+        width: 90% !important;
+    }
+
+    .react-search-field-button{
+        height: 30px !important;
+    }
+    .navbar-toggler {
+        background-color: red !important;
+        border: 4px solid red !important;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none !important;
+    }
+
+    .Category_Cotegory_Link__21x_d{
+        height: 100% !important;
+    }
+
+    .navbar-collapse{
+        height: 300px;
+    }
+
+    .card{
+        border-radius: 0 !important;
+    }
+
+    .navbar{
+        background-color: red !important;
+    }
+
+    .navbar-toggler-icon{
+        background-color: red !important;
+    }
+
+    .react-search-field-input {
+        font-size    : 14px !important;
+    }
+}
+
+@media (min-width:0) and (max-width:1084px){
+    .App {
+        padding: 0.5rem;
+    }
+}

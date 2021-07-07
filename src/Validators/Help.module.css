@@ -1,0 +1,163 @@
+.Url_Title:hover {
+    color      : red;
+    font-weight: bolder;
+    cursor     : pointer;
+}
+
+.karzinka {
+    display        : flex;
+    justify-content: space-around;
+    width          : 70%;
+    align-items    : center;
+}
+
+.Url_Title {
+    font-size: 14px;
+}
+
+.Math {
+    display        : flex;
+    width          : 100px;
+    justify-content: space-between;
+    align-items    : center;
+    margin-left    : 3rem;
+    font-size      : 20px;
+    font-weight    : bolder;
+}
+
+.Math p {
+    cursor: pointer !important;
+}
+
+.Card {
+    width  : 31.3%;
+    margin : 1%;
+    padding: 3px;
+}
+
+.Wrapper {
+    margin: 5rem 150px 0 150px;
+}
+
+.TextList {
+    width: 60%;
+}
+
+.IMGList {
+    width     : 40%;
+    height    : 400px;
+    text-align: center;
+}
+
+.IMGList img {
+    width : 65%;
+    height: 90%;
+}
+
+.IMGList img:hover {
+    width : 70%;
+    height: 95%;
+}
+
+.Wrapper_List {
+    display: flex
+}
+
+@media(min-width:0) and (max-width:574.9px) {
+
+    /* body */
+    .Wrapper {
+        margin: 0;
+    }
+
+    .Wrapper_List {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+    }
+
+    /* Img body */
+    .IMGList {
+        width     : 100%;
+        height    : 100%;
+        text-align: center;
+    }
+
+    .IMGList img {
+        width : 80%;
+        height: 48%;
+    }
+
+    /* text body*/
+    .TextList {
+        width         : 80%;
+        display       : flex;
+        text-align    : center;
+        flex-direction: column;
+        align-items   : center;
+        margin-top    : 1rem;
+    }
+
+    .TextList h3 {
+        font-size: 18px;
+    }
+
+    .Card {
+        width  : 100%;
+        margin : 1%;
+        padding: 3px;
+    }
+
+    .Learn {
+        font-size: 12px !important;
+    }
+
+    .Math {
+        margin-left: 0rem;
+    }
+
+    /* Title */
+
+    .karzinka {
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media(min-width:575px) and (max-width:1084.9px) {
+    .Card {
+        width: 100%;
+    }
+
+    .Title {
+        font-size: 20px !important;
+    }
+
+    /* Main Img */
+    .IMGList {
+        width     : 60%;
+        height    : 400px;
+        text-align: center;
+    }
+
+    /* text body */
+
+    .TextList {
+        width: 40%;
+    }
+
+    /* body */
+    .Wrapper {
+        margin: 3rem 20px 0 0px;
+    }
+}
+
+@media (min-width:1084px) and (max-width:1200px) {
+    .Title {
+        font-size: 18px !important;
+    }
+
+    .Learn {
+        font-size: 11px !important;
+    }
+}

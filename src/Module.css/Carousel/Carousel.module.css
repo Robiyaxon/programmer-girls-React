@@ -1,0 +1,28 @@
+/* Body */
+.Glavnaya{
+    padding: 5px !important;
+}
+
+/* Img */
+.Glavnaya_img {
+    margin: 10px 0;
+    height: 300px;
+    width: 100% !important;
+    border-radius: 10px 10px 10px 10px;
+    object-fit: unset;
+}
+
+@media(min-width:0) and (max-width:574.9px){
+    /* Img */
+    .Glavnaya_img {
+        width: 30%;
+        height: 160px;
+    }
+}
+
+@media (min-width:575px) and (max-width:1084px){
+    .Glavnaya_img {
+        margin: 10px 0;
+        height: 175px;
+    }
+}

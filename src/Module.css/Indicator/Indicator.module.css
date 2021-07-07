@@ -1,0 +1,25 @@
+/* Body */
+.Indicators{
+    padding:0 3px;
+    height: 180px;
+}
+
+@media(min-width:0) and (max-width:575.9px){
+
+    .Indicators{
+        padding:0 0px;
+        display: flex;
+        height: 100%;
+     }
+
+     .Img_body{
+         margin: 0;
+     }
+}
+
+@media(min-width:575px) and (max-width:1084px){
+    .Indicators{
+    padding:0 3px;
+    height: 90px;
+}
+}
