@@ -1,5 +1,6 @@
 {
   "name": "kuhni",
+  "homepage": "https://Robiyaxon.github.io/programmer-girls-React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.0.1",
     "elemental": "^0.6.1",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-carousel-indicator": "^1.0.6",
@@ -29,6 +31,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
