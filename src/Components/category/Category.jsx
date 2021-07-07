@@ -29,7 +29,7 @@ const Category = () => {
                     </div>
                 </div>
                 <div className={style.Category_Shop}>
-                    <Route path='https://robiyaxon.github.io/programmer-girls-React/'  component={Carousel} />
+                    <Route path='https://robiyaxon.github.io/programmer-girls-React/' exact  component={Carousel} />
                     <Route path='/telefon' component={Telefon} />
                     <Route path='/accessories' component={Aksesuar} />
                     <Route path='/kompiyuter' component={kompiyuter} />
