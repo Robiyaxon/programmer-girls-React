@@ -11,7 +11,7 @@ import style from "../../../Module.css/Indicator/Indicator.module.css";
 export const Indicators = () => {
     return (
         <div className={style.Indicators}>
-            <Indicator className={style.Img_body} itemsPerSlide={3} itemGap={0}>
+            <Indicator className={style.Img_body} itemsPerSlide={3} itemGap={3}>
                 <img className={style.Indicators} style={{ width: 33 + '%' }} src={watch} alt="" />
                 <img className={style.Indicators} style={{ width: 33 + '%' }} src={bujiteriya} alt="" />
                 <img className={style.Indicators} style={{ width: 33 + '%' }} src={shoe} alt="" />
