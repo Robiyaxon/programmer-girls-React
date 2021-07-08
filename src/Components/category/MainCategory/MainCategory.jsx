@@ -25,7 +25,7 @@ export const MainCategory = () => {
                 
                 <div className={style.CategoryBox} >
                     <NavLink to="/elektronika" activeClassName={style.BoxHrefActive} className={style.BoxHref}>
-                        <b> 📸 </b> Электроника
+                        <b> ⌚ </b> Электроника
                     </NavLink>
                 </div>
                 

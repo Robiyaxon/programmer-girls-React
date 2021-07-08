@@ -122,10 +122,10 @@
 @media (min-width: 0px) and (max-width:380.9px) {
     .img {
         width          : 100%;
-        justify-content: center;
+        justify-content: center !important;
     }
     .Card {
-        width: 80% !important;
+        width: 75% !important;
     }
 }
 

@@ -13,6 +13,10 @@
      }
 
      .Img_body{
+         height: 80px;
+     }
+
+     .Img_body{
          margin: 0;
      }
 }
