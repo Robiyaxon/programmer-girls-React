@@ -5,9 +5,8 @@ import Login from './Login/Login';
 import style from '../../Module.css/Category/Category.module.css';
 import { MainCategory } from "./MainCategory/MainCategory";
 import Telefon from "./Telefon/Telefon";
-import Aksesuar from "./Telefon/Aksesuar";
+
 import kompiyuter from "./Kompiyuter/Kompiyuter";
-import Ogratexnika from "./Kompiyuter/Ogratexnika";
 import Elektronika from "./Elektronika/Elektronika";
 import TEXNIKA from "./БИТОВАЯ/TEXNIKA";
 import koylak from "./KO`YLAK/KO`YLAK";
@@ -29,11 +28,9 @@ const Category = () => {
                     </div>
                 </div>
                 <div className={style.Category_Shop}>
-                    <Route path='https://robiyaxon.github.io/programmer-girls-React/' exact  component={Carousel} />
+                    <Route path='/' exact  component={Carousel} />
                     <Route path='/telefon' component={Telefon} />
-                    <Route path='/accessories' component={Aksesuar} />
                     <Route path='/kompiyuter' component={kompiyuter} />
-                    <Route path='/ogratexnika' component={Ogratexnika} />
                     <Route path='/elektronika' component={Elektronika} />
                     <Route path='/texnika' component={TEXNIKA} />
                     <Route path='/koylak' component={koylak} />

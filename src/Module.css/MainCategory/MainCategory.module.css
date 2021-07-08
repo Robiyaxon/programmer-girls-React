@@ -4,13 +4,58 @@
     margin : 0rem 0 0.5rem 1.2rem;
     color  : #000 !important;
 }
-@media (min-width:0) and (max-width:574.9px){
-    .CategoryTitle {
-        color: #fff !important;
-        font-size: 16px !important;
-        margin-bottom: 0 !important;
+
+.MainCategory {
+    /* border: 4px solid red; */
+}
+
+.CategoryBox {
+    padding         : 0.5rem;
+    padding-left    : 2rem;
+}
+.CategoryBoxBody{margin-top:1rem;}
+.BoxHref {
+    color          : black;
+    text-decoration: none;
+}
+.BoxHref:hover{color:red}
+@media (min-width:0) and (max-width:574.9px) {
+    .CategoryBox {    border-bottom: 2px solid #cdcdcd;
+        background-color: rgb(237, 237, 250);
     }
-    .TitleIcon{
+
+    .BoxHrefActive {
+        border-left     : 4px solid black;
+        background-color: #fff;
+    }
+
+    .CategoryTitle {
         display: none;
     }
-}
+
+    .TitleIcon {
+        display: none;
+    }
+
+    .CategoryBoxBody{
+        height: 300px; margin:0;
+        overflow: auto;
+    }
+
+    .CategoryBox {
+        padding      : 0rem ;
+        border-bottom: 2px solid #eeeeee;
+        text-align   : center;
+    }
+
+    .BoxHref {
+        display        : flex;
+        flex-direction : column;
+        color          : black ;
+        font-size      : 12px;
+        height         : 80px;
+        justify-content: center;
+    }
+}@media (min-width:0) and (max-width:350px){    .BoxHref {
+        font-size      : 7px !important;
+    }}

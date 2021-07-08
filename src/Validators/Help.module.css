@@ -100,10 +100,12 @@
 
     .TextList h3 {
         font-size: 18px;
+    }    .Title {
+        font-size: 18px !important;
     }
 
     .Card {
-        width  : 100%;
+        width  : 48%;
         margin : 1%;
         padding: 3px;
     }
@@ -121,6 +123,18 @@
     .karzinka {
         justify-content: space-between;
         width: 100%;
+    }
+
+    .LoremText{
+        display: none;
+    }
+}
+
+@media (min-width: 0px) and (max-width:400px){
+    .Card {
+        width  : 98%;
+        margin : 1%;
+        padding: 3px;
     }
 }
 

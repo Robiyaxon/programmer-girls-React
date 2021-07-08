@@ -14,8 +14,8 @@
 }
 
 .CardImg {
-    width     : 100%;
-    height    : 218px;
+    width : 100%;
+    height: 218px;
 }
 
 .скидки {
@@ -74,6 +74,11 @@
 }
 
 @media(min-width:0) and (max-width:574.9px) {
+    .img {
+        width          : 100%;
+        justify-content: space-evenly;
+    }
+
     .footer {
         height: 100%;
     }
@@ -90,12 +95,13 @@
     }
 
     .скидки h5 {
-        font-size: 12px;
+        font-size  : 15px;
+        margin-left: 15px;
     }
 
     .Card {
-        width : 100%;
-        margin: 0.75rem 0 0 0 ;
+        width : 48% !important;
+        margin: 0.75rem 0 0 0;
     }
 
     .text1 {
@@ -113,6 +119,12 @@
     }
 }
 
+@media (min-width: 0px) and (max-width:380.9px) {
+    .Card {
+        width: 80% !important;
+    }
+}
+
 @media (min-width:575px) and (max-width:900.9px) {
     /* text body */
 
@@ -121,6 +133,7 @@
         display    : flex;
         align-items: center;
     }
+
     /* text */
     .text {
         font-size: 7px;
@@ -129,29 +142,33 @@
 
     /* card body*/
     .Card {
-        width  : 48%;
+        width: 48%;
     }
 
     /* Skidki title */
     .скидки {
-        width: 88%;
+        width      : 88%;
         margin-left: 3rem;
     }
-    .скидки h5{ 
-        display: flex;
+
+    .скидки h5 {
+        display        : flex;
         justify-content: flex-start;
     }
 
 }
-@media (min-width:901px) and (max-width:1084px){
+
+@media (min-width:901px) and (max-width:1084px) {
     .img {
         display  : flex;
         flex-wrap: wrap;
         width    : 95%;
     }
+
     .Card {
-        width  : 18%;
+        width: 18%;
     }
+
     .sum {
         font-size  : 14px;
         line-height: 18px;
@@ -159,7 +176,7 @@
 
     /* text */
     .text {
-        font-size  : 11px;
+        font-size: 11px;
     }
 
     /* skitka */
@@ -167,8 +184,9 @@
     .скидки {
         margin-left: 2rem;
     }
-    .скидки h5{
-        display: flex;
+
+    .скидки h5 {
+        display        : flex;
         justify-content: flex-start;
     }
 }

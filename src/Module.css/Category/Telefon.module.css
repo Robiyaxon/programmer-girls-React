@@ -1,17 +1,24 @@
-.ImgMediaCard{
-    display: flex;
-    flex-wrap: wrap;
-    height: 510px;
-    overflow: auto;
+.ImgMediaCard {
+    display        : flex;
+    flex-wrap      : wrap;
+    height         : 510px;
+    overflow       : auto;
 }
-@media (min-width:575px) and (max-width:1084px){
-    .ImgMediaCard{
+
+@media (min-width:0) and (max-width:574.9px) {
+    .ImgMediaCard {
+        height: 300px;
+    }
+}
+
+@media (min-width:575px) and (max-width:1084px) {
+    .ImgMediaCard {
         height: 100%;
     }
 }
 
-@media (min-width:1084px) and (max-width:1200px){
-    .ImgMediaCard{
+@media (min-width:1084px) and (max-width:1200px) {
+    .ImgMediaCard {
         height: 513px;
     }
 }

@@ -7,7 +7,7 @@ import Badge from '@material-ui/core/Badge';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 const useStyles = makeStyles((theme) => ({
   root: {
-    
+
     display: 'flex',
     flexDirection: 'column',
     '& > *': {
@@ -42,17 +42,19 @@ export const LstWrapper = (props) => {
         </div>
         <div className={style.TextList}>
           <div className={style.karzinka}>
-             <h1>{props.Name}</h1>
-             <div className={classes2.root}>
-      <div>
-        <Badge color="secondary" badgeContent={count}>
-        <AddShoppingCartIcon  className={style.Karzinka}/>
-        </Badge>
-      </div>
-    </div>
+            <h1>{props.Name}</h1>
+            <div className={classes2.root}>
+              <div>
+                <Badge color="secondary" badgeContent={count}>
+                  <AddShoppingCartIcon className={style.Karzinka} />
+                </Badge>
+              </div>
+            </div>
           </div>
-         
+          <div className={style.LoremText}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis harum, veritatis sunt ea corporis  dolor sit amet consectetur adipisicing elit. Blanditiis harum, veritatis sunt ea corporis  dolor sit amet consectetur adipisicing elit. Blanditiis harum, veritatis sunt ea corporis  dolor sit amet consectetur adipisicing elit. Blanditiis harum, veritatis sunt ea corporis  dolor sit amet consectetur adipisicing elit. Blanditiis harum, veritatis sunt ea corporis nihil?
+          </div>
+
           <h3>  Доставка: UZS {number * props.sum}</h3>
           <div>
             <p>Доставка из:  {user} </p>
@@ -63,14 +65,12 @@ export const LstWrapper = (props) => {
               <Button onClick={() => setUser("Украина")} variant="outlined">Украина</Button>
             </div>
           </div>
-
           <p>Количество:</p>
           <div className={style.Math}>
             <p onClick={dicriment}>-</p>
             <p>{number}</p>
             <p onClick={increment}>+</p>
-         
-          </div>   <Button onClick={()=>setCount(count + 1)} variant="contained" color="secondary">Купит сейчас</Button>
+          </div>   <Button onClick={() => setCount(count + 1)} variant="contained" color="secondary">Купит сейчас</Button>
           <div>
           </div>
         </div>

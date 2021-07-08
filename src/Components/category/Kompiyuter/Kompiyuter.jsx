@@ -13,16 +13,16 @@ import apple from "../../../img and video/notebook/notebook/kompiyuter10.jpeg"
 const Telefon = () => {
   return (
     <div className={style.ImgMediaCard}>
-      {ImgMediaCard("Kompiyuter",img1,196,767.47)} 
-       {ImgMediaCard("Kompiyuter",telefon9,35,477.45)}
-      {ImgMediaCard("Kompiyuter",apple,98,595.54)}
-      {ImgMediaCard("Kompiyuter",img3,276,618.21)}
-      {ImgMediaCard("Kompiyuter",kategoriya8,31,347.24)} 
-      {ImgMediaCard("Kompiyuter",img2,51.362)}
-      {ImgMediaCard("Kompiyuter",telefon10,16,838.55)}
-      {ImgMediaCard("Kompiyuter",talefon5,46,597.25)}
-      {ImgMediaCard("Kompiyuter",telefon7,38,548.63)}
-    
+      {ImgMediaCard("notebook", img1, 196, 767.47)}
+      {ImgMediaCard("notebook", telefon9, 35, 477.45)}
+      {ImgMediaCard("notebook", apple, 98, 595.54)}
+      {ImgMediaCard("notebook", img3, 276, 618.21)}
+      {ImgMediaCard("notebook", kategoriya8, 31, 347.24)}
+      {ImgMediaCard("notebook", img2, 51.362)}
+      {ImgMediaCard("notebook", telefon10, 16, 838.55)}
+      {ImgMediaCard("notebook", talefon5, 46, 597.25)}
+      {ImgMediaCard("notebook", telefon7, 38, 548.63)}
+
     </div>
   );
 };

@@ -19,7 +19,7 @@ import Checkbox from "@material-ui/core/Checkbox";
 import Favorite from "@material-ui/icons/Favorite";
 import FavoriteBorder from "@material-ui/icons/FavoriteBorder";
 import { LstWrapper } from "./LstWrapper";
-import style from "./Help.module.css"
+import style from "./Help.module.css";
 const useStyles2 = makeStyles((theme) => ({
   appBar: {
     position: 'relative',
@@ -65,7 +65,7 @@ export default function ImgMediaCard(Name, img, sum) {
           <LstWrapper img={img} Name={Name} sum={sum} />
         </List>
       </Dialog>
-      <Card className={classes.root}   >
+      <Card className={classes.root}>
         <CardActionArea>
           <CardMedia onClick={handleClickOpen}
             component="img"
@@ -78,8 +78,8 @@ export default function ImgMediaCard(Name, img, sum) {
             <Typography className={style.Title} gutterBottom variant="h5" component="h2">
               {Name}
             </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            <Typography style={{fontWeight:"bolder", color:"tomato"}} variant="body2" color="textSecondary" component="p">
+             {sum} UZS 
             </Typography>
           </CardContent>
         </CardActionArea>

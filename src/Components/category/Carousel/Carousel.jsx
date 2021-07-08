@@ -17,7 +17,7 @@ export const Carousel = () => {
         { src: auto, id: 1 },
         { src: TV, id: 1 },
         { src: realme, id: 1 }]
-    let maps = map.map(a => <CCarouselItem>
+    let maps = map.map(a => <CCarouselItem key={a.id}>
         <img src={a.src} className={style.Glavnaya_img} alt="" />
     </CCarouselItem>)
     return (

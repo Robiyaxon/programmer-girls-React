@@ -9,7 +9,6 @@
 
 .Cotegory_Link {
     height  : 100%;
-    overflow: auto;
 }
 
 .Category_Title {
@@ -45,13 +44,11 @@
 
 @media(min-width:0) and (max-width:574.9px) {
     .Category_Body {
-        flex-direction: column;
-        width         : 100%;
-        align-items   : center;
+        flex-wrap  : wrap;
+        width      : 100%;
     }
-
     .Category_Menu {
-        width  : 100%;
+        width  : 28%;
         padding: 0;
     }
 
@@ -60,9 +57,9 @@
     }
 
     .Category_Shop {
-        width: 100%;
+        width: 70%; height:100%;
+        overflow: auto;
     }
-
 }
 
 @media(min-width:575px) and (max-width:1084px) {
@@ -71,17 +68,17 @@
     }
 
     .Category_Shop {
-        width: 33%;
+        width : 33%;
         height: 300px;
     }
 
     .Category_Menu {
-        width           : 33%;
+        width  : 33%;
         padding: 0;
     }
 
     .Cotegory_Link {
-        padding : 0 0.5rem;
+        padding: 0 0.5rem;
     }
 
     .Cotegory_Link {
@@ -90,7 +87,7 @@
     }
 }
 
-@media (min-width:1084px) and (max-width:1200px){
+@media (min-width:1084px) and (max-width:1200px) {
     .Category_Shop {
         height: 513px;
     }

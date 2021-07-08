@@ -29,15 +29,15 @@
 }
 
 .Title {
-    letter-spacing   : 1px;
-    font-size        : 16px;
-    width            : 70%;
-    color            : rgb(0 0 0);
-    margin-top       : 30px;
-    line-height      : 18px;
-    margin-bottom    : 0;
-    font-weight      : 900;
-    cursor           : default;
+    letter-spacing: 1px;
+    font-size     : 16px;
+    width         : 70%;
+    color         : rgb(0 0 0);
+    margin-top    : 30px;
+    line-height   : 18px;
+    margin-bottom : 0;
+    font-weight   : 900;
+    cursor        : default;
 }
 
 /* Modal */
@@ -79,8 +79,11 @@
     /* body */
 
     .Login {
-        width : 95%;
+        max-width: 95%;
         height: 300px;
+        border: 1px solid #adadad;
+        min-width: 90%;
+        margin: 1.5rem auto;
     }
 
     /* Title */
@@ -114,7 +117,7 @@
     }
 }
 
-@media (min-width:575px) and (max-width:1084px){
+@media (min-width:575px) and (max-width:1084px) {
     .Login {
         width           : 33%;
         height          : 285px;
